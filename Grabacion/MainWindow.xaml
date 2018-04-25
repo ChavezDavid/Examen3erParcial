@@ -9,7 +9,8 @@
     <Grid>
         <Button x:Name="btnIniGrabacion" Content="Iniciar Grabacion" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="200" Click="btnIniGrabacion_Click"/>
         <Button x:Name="btnDetGrabacion" Content="Detener Grabacion" HorizontalAlignment="Left" Margin="582,10,0,0" VerticalAlignment="Top" Width="200" Click="btnDetGrabacion_Click"/>
-        <TextBox x:Name="lblMuestra" HorizontalAlignment="Left" Height="23" Margin="10,37,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="lblMuestra" HorizontalAlignment="Left" Margin="10,37,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top"/>
+        <Button x:Name="btnReproducir" Content="Reproducir" HorizontalAlignment="Left" Margin="358,10,0,0" VerticalAlignment="Top" Width="75" Click="btnReproducir_Click"/>
 
     </Grid>
 </Window>
